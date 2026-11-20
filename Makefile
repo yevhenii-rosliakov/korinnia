@@ -8,7 +8,7 @@ COMPOSE      ?= docker compose
 COMPOSE_PROD ?= docker compose -f docker-compose.yml
 PROJECT      ?= korinnia
 TEST_DB      ?= korinnia_test
-PLAYWRIGHT_IMAGE ?= mcr.microsoft.com/playwright:v1.64.1-noble
+PLAYWRIGHT_IMAGE ?= mcr.microsoft.com/playwright:v1.65.0-noble
 E2E_PORT     ?= 8091
 
 .PHONY: help
